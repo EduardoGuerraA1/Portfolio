@@ -1,0 +1,680 @@
+@media (min-width: 700px){
+    
+/*Header*/
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0%;
+    color: #A32EFF;
+}
+
+
+.logo{
+    align-items: center;
+    display: flex;
+}
+
+.logo-name{
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.logo-img{
+    height: 45px;
+    width: 45px;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    color: #A32EFF;
+}
+a.nav_target {
+    visibility: hidden;
+}
+
+a:hover{
+    background-color: #A32EFF;
+    color: white;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 25px;
+}
+
+.nav-list{
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Home */
+.home{
+    background: linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(../img/background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 75px 325px ;
+
+}
+
+.greeting{
+    font-style: normal;
+    color: skyblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-hello{
+    display: flex;
+    align-items: center;
+    background-color: #A32EFF;
+    padding: 10px;
+    color:white;
+    border: #A32EFF;
+    border-radius: 10px;
+}
+
+.button-hello:hover{
+    cursor: pointer;
+    size: 150%;
+}
+
+.home-description{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+/*Acerca de mí */
+
+.about-me{
+    padding: 200px 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-me-tittle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.about-me-content{
+    justify-content: space-around;
+    display: flex;
+    box-shadow: 10px 9px 33px 0px rgb(0 0 0 / 28%);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.profile-img{
+    padding-left: 100px;
+    margin-top: 5%;
+    width: 400px;
+}
+
+.socialMedia-bar{
+    margin-left: 45%;
+    margin-bottom: 2%;
+    -moz-box-shadow: 5px 5px 14px 0px rgba(171,164,171,1);
+    box-shadow: 5px 5px 14px 0px rgba(171,164,171,1);
+    display: flex;
+    justify-content: space-evenly;
+    width: 125px;
+    border-radius: 8px;
+}
+
+.socialMedia-bar-icon{
+    padding: 5%;
+}
+
+.a-icon:hover{
+    background-color: white;
+    color: #A32EFF;
+}
+
+.button-download{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-color: #A32EFF;
+    border-radius: 10px;
+    border-width: medium;
+}
+
+.button-download-a{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color:#A32EFF;
+    border-color: #A32EFF;
+    border-radius: 10px;
+    border-width: medium;
+}
+
+.button-download-a:hover{
+    background-color: white;
+    color: #A32EFF;
+    font-size: 13.33px;
+}
+
+
+/*Skills */
+
+.skills-tittle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.skills-logos{
+    padding: 200px 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Hobbies*/
+.hobbies-tittle, .formation-tittle, .projects-tittle, .contact-tittle{
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 32px;
+    padding: 5% 0 0 0;
+}
+
+.hobbies-icons-tittles{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.hobbies-icons-1{
+    padding: 100px 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies-icons-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Formation*/
+.formation-icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10% 0 10%;;
+}
+
+.formation-icons-content{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formation-icons-tittle{
+    margin: 0;
+    text-align: center;
+}
+
+/*Projects*/
+
+.projects{
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-exmples{
+    display: flex;
+}
+
+.img-box{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+    box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+}
+
+.project-box{
+    padding: 2%;
+}
+
+/*Contact*/
+.contact{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffb7ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(../img/pexels-charles-parker-5845684.jpg); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(../img/pexels-charles-parker-5845684.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size:cover ;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+.contact{
+    text-align: center;
+
+}
+
+.contact-form{
+    max-width: 800px;
+    text-align: left;
+}
+
+.contact .contact-form h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: #A32EFF;
+}
+
+
+.contact .contact-form p{
+    font-weight: 300;
+    color: white;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 165px;
+    height: 100px;
+}
+
+.send-button{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color:#A32EFF;
+    border-color: #A32EFF;
+    border-radius: 10px;
+    border-width: medium;
+}
+
+.contact-home-button{
+    color: white;
+    width: 1000px;
+    height: 1000px;
+}
+.contact-home-button:hover{
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+}
+
+@media (max-width: 700px){
+    /*Header*/
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3%;
+        background-color: #A32EFF;
+        align-content: stretch;
+    }
+
+    a{
+        font-family: 'Roboto', sans-serif;
+        color: #A32EFF;
+        text-decoration: none;
+    }
+
+    .logo{
+        align-items: center;
+        display: flex;
+    }
+    
+    .logo-name{
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    .logo-img{
+        height: 45px;
+        width: 45px;
+        background-color: #fffefe;
+        border-radius: 100%;
+    }
+
+    .list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #A32EFF;
+        color: white;
+    }
+
+    .nav-list{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        background-color: #f9b5ac;
+        display: grid;
+        place-items: center;
+        clip-path: circle(0% at top left);
+        transition: clip-path .4s;
+    }
+
+    .nav-list:target{
+        clip-path: circle(150% at top left);
+    }
+
+
+
+    /*Titles*/
+    .about-me-tittle, .skills-tittle, .hobbies-tittle, .formation-tittle, .projects-tittle{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        padding: 10% 0 0 0;
+    }
+    
+
+
+    /*Home*/
+    
+
+    .home{
+        display: block;
+        background: linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(../img/background.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover; 
+        padding: 35% 10%;   
+    }
+
+    .home-description{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        padding: 15% 0;
+    }
+    
+    .greeting{
+        font-style: normal;
+        font-size: xxx-large;
+        color: skyblue;
+        font-family: 'Roboto', sans-serif;
+        padding: 10% 0;
+    }
+
+    .button-hello{
+        display: flex;
+        align-items: center;
+        background-color: #A32EFF;
+        padding: 10px;
+        color:white;
+        border: #A32EFF;
+        border-radius: 10px;
+    }
+
+    /*About me*/
+
+    .about-me{
+        padding: 20% 5%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .about-me-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me-picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 14px 0px rgb(171 164 171);
+        padding: 5%;
+        border-radius: 12px;
+    }
+
+    .profile-img {
+        width: 100%;
+    border-radius: 5px;
+    }
+
+    .socialMedia-bar {
+        box-shadow: 5px 5px 14px 0px rgb(171 164 171);
+        padding: 1%;
+        display: flex;
+        width: 25%;
+        border-radius: 8px;
+        justify-content: space-evenly;
+    }
+    
+    .button-download{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border-color: #A32EFF;
+        border-radius: 10px;
+        border-width: medium;
+    }
+
+    /*Skills*/
+    .skills-logos {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .html-logo, .css-logo, .javascript-logo, .sketchup-logo{
+        padding: 3%;
+        margin: 5%;
+    }
+
+    /*Hobbies*/
+
+    .hobbies-icons-1, .hobbies-icons-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hobbies-icons-tittles{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    /*Formation*/
+    .formation-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10%;
+    }
+
+    .formation-icons-content {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formation-icons-content h3 {
+        margin: 0;
+    }
+
+
+    /*Projects*/
+    .projects-exmples {
+        font-family: 'Roboto', sans-serif;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-box{
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+        box-shadow: 10px 10px 5px 0px rgba(130,126,130,1);
+    }
+
+    /*Contact*/
+
+    .contact{
+        font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 0 10% 15% 10%;;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffb7ff;
+    background: -webkit-linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(img/pexels-charles-parker-5845684.jpg);
+    background: linear-gradient(to right, rgba(164, 46, 255, 0.3), rgba(3,37,108, 0.3)), url(img/pexels-charles-parker-5845684.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+    }
+
+    h1.contact-tittle {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .form{
+        text-align: center;
+    }
+
+    .inputBox {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .box {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .send-button{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        color:#A32EFF;
+        border-color: #A32EFF;
+        border-radius: 10px;
+        border-width: medium;
+    }
+    
+}
+
+/*For mobile and desktop*/
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1b1b1b;
+    height: auto;
+    width: 100%;
+    font-family: 'Roboto', "open-sans";
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: #cea8eb;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
